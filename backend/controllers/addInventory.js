@@ -3,7 +3,6 @@ const generateQRCode = require('../config/genrateQr');
 
 exports.addInventory = async (req, res) => {
        
-
         try {
 
             const data = {
@@ -14,8 +13,6 @@ exports.addInventory = async (req, res) => {
             const qrCodeData = JSON.stringify(data);
             const qrCode = await generateQRCode(qrCodeData);
              
-            // Save the QR code path to the database
-           
             await add.create({
                 name: req.body.name,
                 dateReceived: req.body.date,

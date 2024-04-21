@@ -4,12 +4,7 @@ exports.ReceivedUpdate = async (req, res) => {
    
       
     try {
-
           const  name= req.body.name;
-          console.log(req.body.dateDispatched);
-          console.log(req.body.name);
-          console.log(req.body.ReceivedQty);
-        // Save the QR code path to the database
         const response = await update.updateOne(
             { 
               name: name,                    
@@ -22,7 +17,6 @@ exports.ReceivedUpdate = async (req, res) => {
             }
           );
           
-          console.log(response)
         res.json({ success: true, response });
     } catch (error) {
         console.error('Error generating and saving QR code:', error);

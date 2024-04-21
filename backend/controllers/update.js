@@ -19,7 +19,6 @@ exports.updateInventory = async (req, res) => {
             ReceivedQty: req.body.qty,
             qrCode: qrCode
         }
-        // Save the QR code path to the database
        const id = req.params.id;
          const response= await update.findByIdAndUpdate(id,updatedData, { new: true })
 

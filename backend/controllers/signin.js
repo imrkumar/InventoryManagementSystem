@@ -1,7 +1,8 @@
 const user = require('../models/register');
 const jwt = require('jsonwebtoken');
+require('dotenv').config();
 exports.signin = async (req,res)=>{
-    const secretKey = 'your-secret-key';
+    const secretKey = process.env.secretKey;
     const generateToken = (user) => {
         const payload = {
           username: user
