@@ -1,0 +1,42 @@
+.registerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+input{
+    display: block;
+    margin-bottom: 15px;
+    width: 90%;
+    padding:  6px 0;
+    outline: none;
+    font-size: 18px;
+    outline: navy;
+    border: 1px solid navy;
+     margin-left: 13px;
+    
+}
+.container h2{
+    color:navy;
+}
+.container p {
+    color: rgb(112, 112, 112);
+}
+.container{
+    border: 1px solid rgb(153, 152, 152);
+    text-align: center;
+    padding: 18px;
+    
+
+}
+.container button{
+    width: 90%;
+    padding: 10px 0;
+    background-color: navy;
+    outline: none;
+    border: none;
+    color: white;
+}

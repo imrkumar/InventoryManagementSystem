@@ -1,0 +1,31 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.loginContainer h2{
+    color: navy;
+}
+.loginContainer p {
+    color: rgb(112, 112, 112);
+}
+
+.loginContainer form {
+    border: 1px solid  rgb(112, 112, 112);
+    padding: 10px;
+}
+.loginContainer button{
+    width: 90%;
+    padding: 10px 0;
+    
+    background-color: navy;
+    outline: none;
+    border: none;
+    color: white;
+}
+.msg{
+    margin-top: 5px;
+    color: red;
+}

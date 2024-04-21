@@ -1,0 +1,54 @@
+.dashboardContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+.dashboard{
+    border: 1px solid navy;
+    margin-top: 20px;
+    height: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+.headerRow{
+    margin: 0 16px;
+    color: navy;
+    font-weight: 500;
+  
+}
+.dashboard{
+    margin-right: 15px;
+}
+
+.row2{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.dataRow{
+  margin: 0 40px;
+}
+
+th{
+    color: navy;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+td{
+    text-align: center;
+    
+}
+.deletebtn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
